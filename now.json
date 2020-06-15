@@ -1,0 +1,17 @@
+{
+    "name": "next-boilerplate",
+    "version": 2,
+    "build": {
+        "env": {
+            "GOOGLE_ANALYTICS_ID": "123"
+        }
+    },
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "@now/next",
+            "config": { "maxLambdaSize": "10mb" }
+        }
+    ],
+    "routes": []
+}
